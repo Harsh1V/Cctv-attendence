@@ -1,0 +1,17 @@
+asgiref==3.9.1
+channels
+Django==5.2.5
+facenet_pytorch
+numpy==2.2.6          # Py3.10 ke liye yahi max stable
+opencv_python==4.12.0.88
+Pillow==11.3.0
+scipy==1.15.3         # Py3.10 ke liye yahi pin use karo
+torch==2.8.0          # <-- no +cu126
+torchvision==0.23.0   # <-- no +cu126
+websockets
+
+
+
+# insightface
+# python -m pip install typing-extensions==4.12.2
+# >> python -m pip install torch==2.8.0 torchvision==0.23.0 --extra-index-url https://download.pytorch.org/whl/cpu
